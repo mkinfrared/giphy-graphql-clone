@@ -10,6 +10,7 @@
       "@middleware/*": ["middleware/*"],
       "@public/*": ["public/*"],
       "@resolvers/*": ["resolvers/*"],
+      "@type/*": ["type/*"],
       "@util/*": ["util/*"]
     },
     "plugins": [{ "transform": "typescript-transform-paths" }]

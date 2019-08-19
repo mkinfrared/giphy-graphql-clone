@@ -1,4 +1,4 @@
-import { UserResolver } from "@resolvers/user/User";
+import { UserResolver } from "@resolvers/user/UserResolver";
 
 const userResolvers = [UserResolver];
 
