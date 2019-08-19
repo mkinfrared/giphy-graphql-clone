@@ -9,3 +9,4 @@ export const REDIS_HOST = process.env.REDIS_HOST;
 export const SESSION_SECRET = process.env.SESSION_SECRET;
 export const SERVER_PORT = process.env.SERVER_PORT;
 export const SERVER_ADDRESS = process.env.SERVER_ADDRESS;
+export const GIPHY_KEY = process.env.GIPHY_KEY;
