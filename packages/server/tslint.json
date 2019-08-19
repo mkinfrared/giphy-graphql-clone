@@ -1,6 +1,12 @@
 {
   "extends": ["../../tslint.json"],
   "rules": {
-    "no-console": false
+    "no-console": false,
+    "member-access": false,
+    "ordered-imports": {
+      "options": {
+        "grouped-imports": false
+      }
+    }
   }
 }

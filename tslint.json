@@ -19,6 +19,7 @@
         }
       ]
     },
+    "object-literal-sort-keys": false,
     "one-line": [true, "check-open-brace", "check-whitespace"],
     "no-var-keyword": true,
     "quotemark": [true, "double", "avoid-escape"],
@@ -110,7 +111,6 @@
   "only-arrow-functions": true,
   "prefer-object-spread": true,
   "eofline": true,
-  "object-literal-sort-keys": true,
   "file-name-casing": [true, "camel-case"],
   "newline-before-return": true,
   "no-consecutive-blank-lines": true,
