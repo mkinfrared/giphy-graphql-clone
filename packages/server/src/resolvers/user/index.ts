@@ -1,5 +1,5 @@
-import { RegisterResolver } from "@resolvers/user/Register";
+import { UserResolver } from "@resolvers/user/User";
 
-const userResolvers = [RegisterResolver];
+const userResolvers = [UserResolver];
 
 export default userResolvers;
