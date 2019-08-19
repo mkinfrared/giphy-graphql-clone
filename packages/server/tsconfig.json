@@ -6,11 +6,10 @@
     "outDir": "./build",
     "baseUrl": "src",
     "paths": {
-      "@controllers/*": ["controllers/*"],
       "@db/*": ["db/*"],
-      "@middlewares/*": ["middlewares/*"],
+      "@middleware/*": ["middleware/*"],
       "@public/*": ["public/*"],
-      "@routes/*": ["routes/*"],
+      "@resolvers/*": ["resolvers/*"],
       "@util/*": ["util/*"]
     },
     "plugins": [{ "transform": "typescript-transform-paths" }]
