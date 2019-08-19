@@ -55,7 +55,8 @@
     "no-null-keyword": true,
     "prefer-const": true,
     "jsdoc-format": true,
-    "prettier": true
+    "prettier": true,
+    "interface-name": false
   },
   "class-name": true,
   "comment-format": [true, "check-space"],
