@@ -113,7 +113,7 @@ export class Gif {
   images: Image;
   @Field()
   title: string;
-  analytics: {
+  analytics?: {
     onload: {
       url: string;
     };
