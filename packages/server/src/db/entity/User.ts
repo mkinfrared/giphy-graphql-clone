@@ -1,5 +1,12 @@
+import { Favorite } from "@db/entity/Favorite";
 import { Field, ID, ObjectType } from "type-graphql";
-import { BaseEntity, Column, Entity, PrimaryGeneratedColumn } from "typeorm";
+import {
+  BaseEntity,
+  Column,
+  Entity,
+  OneToMany,
+  PrimaryGeneratedColumn
+} from "typeorm";
 
 @ObjectType()
 @Entity()
@@ -14,4 +21,7 @@ export class User extends BaseEntity {
 
   @Column()
   password: string;
+
+  @OneToMany(type => Favorite, favorite => favorite.user)
+  favoriteConnection: Promise<Favorite[]>;
 }
