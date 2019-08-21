@@ -1,6 +1,7 @@
 import "reflect-metadata";
 
 import resolvers from "@resolvers/index";
+import { authChecker } from "@util/checkAuth";
 import { redis } from "@util/redis";
 import {
   CORS_ORIGIN,
@@ -24,7 +25,8 @@ const main = async () => {
     console.log("Successfully connected to database");
 
     const schema = await buildSchema({
-      resolvers
+      resolvers,
+      authChecker
     });
     const RedisStore = connectRedis(session);
     const app = express();
